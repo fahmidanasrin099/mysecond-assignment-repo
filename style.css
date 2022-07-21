@@ -1,0 +1,137 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #9898a6;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.banner-img img {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+    width: 100%;
+    height: auto;
+    border: solid black 1px;
+    border-bottom: 50px;
+    border-radius: 50px;
+}
+
+.banner-text {
+    position: absolute;
+    width: 40%;
+    top: 1%;
+    color: white;
+
+}
+
+.banner-text h1 {
+    font-size: 5vw;
+    font-weight: 4px;
+    padding-top: 20px;
+    margin-left: 8%;
+}
+
+.banner-text p {
+    width: 70%;
+    font-size: 1vw;
+    font-weight: 5px;
+    margin-left: 8%;
+}
+
+.banner-live-btn {
+    position: absolute;
+    background-color: orange;
+    border: solid orange 2px;
+    border-radius: 10px;
+    /* width: 200px; */
+    margin-left: 8%;
+
+
+}
+
+.banner-live-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    padding: 5 50px;
+}
+
+.banner-live-btn a:hover {
+    border: solid #ec0e63 5px;
+    border-radius: 10px;
+    padding: 5 50px;
+    color: rgb(39, 8, 8);
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+/* Section-two */
+.sidebar-sec {
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    column-gap: 10px;
+    align-items: flex-start;
+    width: 25%;
+    height: 50%;
+    background-color: black;
+    margin-top: 90px;
+    border-radius: 20px;
+}
+
+.btn {
+    width: 90%;
+    height: 40%;
+    margin: 5px 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px
+}
+
+#color-red {
+    background-color: red;
+}
+
+.container {
+    /* display: grid;
+    grid-template-columns: repeat(4 1fr);
+    column-gap: 10px;
+    align-items: flex-start; */
+    margin-top: 100px;
+
+}
+
+.transfer-banner {
+    width: 315px;
+    height: 500px;
+    background-color: white;
+    border: solid white;
+    border-radius: 20px;
+}
+
+.transfer-banner img {
+    width: 315px;
+    height: 175;
+    border-radius: 20px;
+}
+
+.transfer-banner h4 {
+
+    border: solid black 1px;
+    border-radius: 6px;
+    width: 150px;
+    padding: 6px;
+    margin-left: 15px;
+}
+
+.transfer-banner h5 {
+    width: 250px;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.transfer-info {
+    display: grid;
+
+}
+
+/* Section-two end */
