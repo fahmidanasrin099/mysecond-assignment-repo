@@ -66,14 +66,20 @@ body {
 }
 
 /* Section-two */
-.sidebar-sec {
+.container {
     display: grid;
     grid-template-columns: repeat(4 1fr);
-    column-gap: 10px;
-    align-items: flex-start;
+    grid-template-rows: repeat(3 1fr);
+    gap: 15px;
+}
+
+.sidebar-sec {
+    display: flex;
+    flex-direction: column;
     width: 25%;
     height: 50%;
     background-color: black;
+    justify-content: center;
     margin-top: 90px;
     border-radius: 20px;
 }
@@ -92,11 +98,8 @@ body {
 }
 
 .container {
-    /* display: grid;
-    grid-template-columns: repeat(4 1fr);
-    column-gap: 10px;
-    align-items: flex-start; */
-    margin-top: 100px;
+    display: flex;
+    margin-top: 200px;
 
 }
 
@@ -130,7 +133,7 @@ body {
 }
 
 .transfer-info {
-    display: grid;
+    display: flex;
 
 }
 
